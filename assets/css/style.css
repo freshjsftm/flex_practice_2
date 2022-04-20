@@ -1,0 +1,41 @@
+:root {
+  --main-color-light: whitesmoke;
+  --main-color-dark: #262626;
+}
+
+.header {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin:auto;
+  background-color: var(--main-color-dark);
+  color: var(--main-color-light);
+}
+
+.logo{
+  font-size: 1.5em;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+.nav{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3em;
+}
+.nav-list-item {
+  display: inline-block;
+  padding: 0 10px;
+}
+.contact-btn {
+  background-color: inherit;
+  border: 1px solid var(--main-color-light);
+  border-radius: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.padding {
+  padding: 10px 20px;
+}
