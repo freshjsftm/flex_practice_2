@@ -2,7 +2,6 @@
   --main-color-light: whitesmoke;
   --main-color-dark: #262626;
 }
-
 .header {
   display:flex;
   flex-wrap: wrap;
@@ -13,7 +12,6 @@
   background-color: var(--main-color-dark);
   color: var(--main-color-light);
 }
-
 .logo{
   font-size: 1.5em;
   font-family: cursive;
@@ -38,4 +36,11 @@
 }
 .padding {
   padding: 10px 20px;
+}
+.main-container {
+  background-image: url(./../images/coffee.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: right top;
 }
